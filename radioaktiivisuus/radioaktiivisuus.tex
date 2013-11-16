@@ -1,0 +1,144 @@
+% Tämä on fysiikan laboratoriotöiden selostuspohjapohja.
+% Pohja ei kuitenkaan ole mikään virallinen ja oikea totuus, 
+% eli muistakin pohjia voi käyttää. Tämän tarkoitus on ainoastaan 
+% auttaa opiskelijoita LaTeXin alkuun.
+%
+% Pohjaa saa levittää ja muuttaa vapaasti. Pohjan muuttajan toivotaan 
+% kuitenkin lisäävän tiedot muutoksesta ja sen ajankohdasta tämän 
+% kommenttiosuuden loppuun.  
+%
+% Pikainen käyttöohje:
+% Päivita kansilehden tiedot
+% Kirjoita selostuksesi
+% ATK-keskuksessa käännät koodin seuraavilla komennoilla:
+% use latex
+% latex selkkari.tex
+% 
+% Esikatsele:
+% xdvi selkkari
+%
+% Possuksi (tiedostonimeksi selostus.ps):
+% dvips -o selostus.ps selkkari
+%
+% Toivottavasti tämä pohja auttaa alkuun
+%
+% Jukka Katainen, 6.2.2004
+%
+\documentclass[a4paper,11pt]{article}
+
+\frenchspacing
+\usepackage[finnish]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[dvips]{graphicx}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+
+%Tästä alkaa selkkarin kansilehti. Vaihda tilalle tarvittavat tiedot.
+\begin{titlepage}
+\pagestyle{empty}
+\begin{center}
+
+\vspace*{3cm}
+\noindent\LARGE{\textbf{Työ 
+%
+%*******************************************************
+%Työn numero:
+99
+%*******************************************************
+%
+\\
+%
+%*******************************************************
+%Työn nimi:
+Työn nimi
+%*******************************************************
+%
+}}\\
+\vspace*{2cm}
+Työvuoro \LARGE{\textbf{
+%
+%*******************************************************
+%Työvuoro:
+99
+%*******************************************************
+%
+}} pari \LARGE{\textbf{
+%
+%*******************************************************
+%Parin numero:
+9
+%*******************************************************
+}}\\
+\vspace*{1cm}
+\large{
+\begin{tabular}{l l}
+%
+%*******************************************************
+%Parin opiskelijat ja opiskelijanumerot:
+Teemu Teekkari & 99999A\\
+Tiina Teekkari & 88888B\\
+%*******************************************************
+%
+\end{tabular}
+
+\vspace*{1cm}
+Selostuksen laati \emph{
+%
+%*******************************************************
+% Selostuksen tekijä:
+Teemu Teekkari
+%*******************************************************
+%
+} \\
+\vspace*{1cm}
+\begin{tabular}{l l}
+Mittaukset suoritettu & \textbf{
+%
+%*******************************************************
+% Mittaukset suoritettu
+pp.kk.vvvv
+%*******************************************************
+%
+}\\
+Selostus palautettu & \textbf{
+%
+%*******************************************************
+% Selostus palautettu
+pp.kk.vvvv
+%*******************************************************
+%
+}\\
+\end{tabular}
+}
+\end{center}
+\end{titlepage}
+%kansilehti loppuu tähän
+
+%Varsinainan selkkari alkaa
+\section{Johdanto}
+
+\section{Laitteisto ja menetelmät}
+
+\section{Tulokset}
+
+\section{Yhteenveto ja pohdinnat}
+
+
+%Kirjallisuuviitteet
+\begin{thebibliography}{99}
+% Kirjallisuus viitteet tähän tapaan:
+\item{R.W. Robinnet, Quantum Mechanics, Oxford University Press, 1997}
+\label{robinnet}
+
+\end{thebibliography}
+
+%liitteet numeroituna
+\section*{Liitteet}
+\begin{enumerate}
+%Liitteet tähän tapaan
+\item{Mittauspöytäkirja}\label{mittaus}
+
+\end{enumerate}
+
+\end{document}
