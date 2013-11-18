@@ -29,7 +29,7 @@
 \frenchspacing
 \usepackage[finnish]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage[dvips]{graphicx}
+\usepackage{graphicx}
 \usepackage[T1]{fontenc}
 
 \begin{document}
@@ -204,16 +204,20 @@ Sijoittamalla tämä kaavaan \ref{annos3} saadaan annosnopeudeksi
   \dot{D} = \frac{(\dot{n}_0-\dot{n}_1) \cdot \bar{E}}{\epsilon \cdot m} .
 \end{equation}
 
+Eri säteilyn lajien samansuuruisilla absorboituneilla annoksilla on erilaiset biologiset vaikutukset. Ekvivalenttiannos painottaa säteilyannosta eri painokertoimella kutakin säteilylajia kohden ja efektiivinen annos painottaa ekvivalenttiannosta kunkin kohde-elimen painokertoimella. Ekvivalenttiannoksen yksikkö on J/kg eli Sievert (Sv).
+
+\cite{ohje}
+
 \subsection{Alfa- ja beetasäteilyn mittaus}
 \label{laitteisto:alfabeeta}
 
-Alfa- ja beetasäteilyn mittauksessa säteilylähteet ja detektori on asennettu muovikoteloon, jossa säteilylähteiden etäisyyttä detektorista voidaan säätää ruuvilla ja säteilylähde voidaan vaihtaa tappia vetämällä tai työntämällä. Detektoriin kytketystä mittalaitteesta voidaan lisäksi valita mitattavaksi haluttu säteilylaji. Alfasäteilyn lähde koostuu Am-241-isotoopista ja beetasäteilyn ($\beta^-$) lähde Sr-90-isotoopista. Alfahiukkasten energia on noin 5,5 MeV. Beetahiukkasten maksimienergia 546 keV ja keskimääräinen energia 196 keV.
+Alfa- ja beetasäteilyn mittauksessa säteilylähteet ja detektori on asennettu muovikoteloon, jossa säteilylähteiden etäisyyttä detektorista voidaan säätää ruuvilla ja säteilylähde voidaan vaihtaa tappia vetämällä tai työntämällä. Detektoriin kytketystä mittalaitteesta voidaan lisäksi valita mitattavaksi haluttu säteilylaji. Alfasäteilyn lähde koostuu Am-241-isotoopista ja beetasäteilyn ($\beta^-$) lähde Sr-90-isotoopista. Lähteet ovat tasomaisia, halkaisijaltaan 10 mm. Alfahiukkasten energia on noin 5,5 MeV. Beetahiukkasten maksimienergia 546 keV ja keskimääräinen energia 196 keV. \cite{ohje}
 
 
 \subsection{Gammasäteilyn mittaus}
 \label{laitteisto:gamma}
 
-Gammasäteilyn mittauksessa käytetään säteilylähteenä Co-60-isotooppia, joka $\beta^-$-hajoamisella muuttuu Ni-60-isotoopiksi. Hajoamisen jälkeen ydin jää viritystilaan, jonka purkautuessa emittoituu kaksi gammakvanttia energioiltaan 1173 keV ja 1332 keV. Detektorina käytetään tuikeilmaisinta, jonka pohjan pinta-ala on $5,07 cm^2$. Detektori havaitsee noin 36 \% tuikekiteeseen osuvista gammakvanteista. Annosnopeuden mittaukseen käytetään Geiger-Muller-putkeen perustuvaa dosimetria. 
+Gammasäteilyn mittauksessa käytetään säteilylähteenä Co-60-isotooppia, joka $\beta^-$-hajoamisella muuttuu Ni-60-isotoopiksi. Hajoamisen jälkeen ydin jää viritystilaan, jonka purkautuessa emittoituu kaksi gammakvanttia energioiltaan 1173 keV ja 1332 keV. Detektorina käytetään tuikeilmaisinta, jonka pohjan pinta-ala on $5,07 cm^2$. Detektori havaitsee noin 36 \% tuikekiteeseen osuvista gammakvanteista. Annosnopeuden mittaukseen käytetään Geiger-Muller-putkeen perustuvaa dosimetria. \cite{ohje}
 
 
 
@@ -223,7 +227,7 @@ Gammasäteilyn mittauksessa käytetään säteilylähteenä Co-60-isotooppia, jo
 \label{tulokset:alfabeeta}
 
 Mitataan alfalähteen säteilyn pulssitaajuus 5 mm etäisyydeltä vaimentamattomana sekä mylarkalvon kanssa. 
-\begin{table}[h]
+\begin{table}[ht]
 \begin{center}
 \caption{Alfalähteen aiheuttama pulssitaajuus 5mm etäisyydeltä}
 \begin{tabular}{ | r | l | }
@@ -237,7 +241,7 @@ Mitataan alfalähteen säteilyn pulssitaajuus 5 mm etäisyydeltä vaimentamattom
 Mitataan alfasäteilyn kantama ilmassa siirtämällä alfalähdettä kauemmas detektorista. Saadaan, että $23 \pm 1 mm$ etäisyydellä detektori ei havaitse kuin satunnaisia hajoamisia, joten etäisyys voidaan katsoa alfasäteilyn kantamaksi. 
 
 Mitataan beetalähteen säteilyn pulssitaajuus 5mm etäisyydeltä vaimentamattomana, mylarkalvon ja pleksilevyn kanssa.
-\begin{table}[h]
+\begin{table}[ht]
 \begin{center}
 \caption{Beetalähteen aiheuttama pulssitaajuus 5mm etäisyydeltä}
 \begin{tabular}{ | r | l | }
@@ -251,7 +255,86 @@ Mitataan beetalähteen säteilyn pulssitaajuus 5mm etäisyydeltä vaimentamattom
    
 Mitataan beetasäteilyn vaimenemista siirtämällä beetalähde niin kauas detektorista kuin mittalaitteella on mahdollista. Saadaan maksimietäisyydellä $83 \pm 0,5 mm$ pulssitaajuudeksi $75 \pm 25 Bq$. 
 
+\subsection{Gammasäteily}
+\label{tulokset:gamma}
+
+Mitataan gammalähteen pulssien lukumäärää eri etäisyyksiltä tasavälisesti $1/r^2$ suhteen kymmenen sekunnin ajan. 
+
+\begin{table}[ht]
+\begin{center}
+\caption{Gammalähteestä mitattujen pulssien määrä eri etäisyyksiltä 10 s aikana}
+\begin{tabular}{ | r | l | }
+  \hline
+Etäisyys (cm) & Havaitut pulssit (kpl) \\ \hline
+5.0 & 2704 \\ \hline
+5.3 & 2474 \\ \hline
+5.7 & 2061 \\ \hline
+6.1 & 1830 \\ \hline
+6.7 & 1552 \\ \hline
+7.4 & 1320 \\ \hline
+8.5 & 1005 \\ \hline
+10.3 & 743 \\ \hline
+14.1 & 523 \\ \hline
+40.0 & 319 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+Etäisyyden virheeksi arvioidaan $\pm 0,2 cm$.
+
+\begin{figure}[ht]
+\centering \includegraphics[width=0.8\textwidth]{gamma1}
+\caption{Tapahtumasuuntautunut maailmankuva. \label{gamma1}}
+\end{figure}
+
+\clearpage
+
+Mitataan gammalähteen pulssien lukumäärä 20 cm etäisyydeltä 100 s ajan eri määrällä lyijylevyistä valmistettuja absorptiolevyjä. 
+
+\begin{table}[ht]
+\begin{center}
+\caption{Gammalähteestä mitattujen pulssien määrä 20 cm etäisyydeltä 100 s aikana eri lyijykerroksen paksuuksilla}
+\begin{tabular}{ | r | l | }
+  \hline
+Lyijyn määrä (cm) & Havaitut pulssit (kpl) \\ \hline
+0 & 4000 \\ \hline
+2 & 3797 \\ \hline
+4 & 3801 \\ \hline
+6 & 3554 \\ \hline
+8 & 3535 \\ \hline
+12 & 3330 \\ \hline
+16 & 3315 \\ \hline
+20 & 3003 \\ \hline
+28 & 2809 \\ \hline
+36 & 2655 \\ \hline
+50 & 2576 \\ \hline
+80 & 2193 \\ \hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+Mitataan dosimetrillä säteilyannosta työskentelypaikalta lyijytiilien kanssa, ilman lyijytiiliä sekä 5 cm päässä gammalähteestä. 
+
+\begin{table}[ht]
+\begin{center}
+\caption{Beetalähteen aiheuttama pulssitaajuus 5mm etäisyydeltä}
+\begin{tabular}{ | r | l | }
+  \hline
+  lyijytiilien kanssa & $0,18 \pm 0,01 Sv$ \\ \hline
+  ilman lyijytiiliä & $0,18 \pm 0,01 Sv$ \\ \hline
+  5 cm päässä lähteestä & $0,50 \pm 0,05 Sv$ \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\clearpage
+
 \section{Yhteenveto ja pohdinnat}
+
+Havaitaan, että alfasäteily pysähtyy ohueenkin väliaineeseen, siinä missä beetasäteily läpäisee vähän paksummankin väliaineen. Gammasäteily puolestaa läpäisee jopa paksumman lyijykerroksen. Samalla tavalla käyttäytyvät myös säteilytyyppien kantamat. Nämä on pidettävä mielessä säteilyltä suojautuessa. 
+
+Mittauksia tehdessä, olivat tutkimuksen tekijät pääsääntöisesti suojattu säteilyltä, eikä lähelläkään säteilylähdettä ollut vaarallisia annosnopeuksia. Ainoa elin, joka joutui lähelle säteilylähdettä oli käsi, ja sen efektiiviset painokertoimet ovat pieniä. 
 
 
 %Kirjallisuuviitteet
