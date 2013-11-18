@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.18)  18 NOV 2013 14:39
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.18)  18 NOV 2013 15:05
 entering extended mode
 **//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/fyslab/radioaktiivisuus/radio
 aktiivisuus.tex
@@ -327,7 +327,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 125.
 
 [1] [2]
-Overfull \hbox (0.23499pt too wide) in paragraph at lines 199--200
+Overfull \hbox (0.23499pt too wide) in paragraph at lines 195--196
 []\T1/cmr/m/n/10.95 jossa te-ki-j‰‰ $\OML/cmm/m/it/10.95 []=$ \T1/cmr/m/n/10.
 95 kut-su-taan energia-absorption mas-sa-ker-toi-mek-si. Vaih-
  []
@@ -353,13 +353,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--264
 (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\fyslab\radioaktiivisuus\radioa
 ktiivisuus.aux) ) 
 Here is how much of TeX's memory you used:
- 1301 strings out of 494053
- 14661 string characters out of 3147733
+ 1302 strings out of 494053
+ 14703 string characters out of 3147733
  69212 words of memory out of 3000000
- 4608 multiletter control sequences out of 15000+200000
+ 4609 multiletter control sequences out of 15000+200000
  13373 words of font info for 34 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 25i,9n,24p,781b,266s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,9n,24p,781b,247s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/enc/dvips/cm-super/cm-sup
 er-t1.enc}<C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmmi10.
 pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
@@ -373,7 +373,7 @@ blic/cm-super/sfbx1728.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm
 -super/sfrm1095.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/
 sfrm1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfrm172
 8.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on radioaktiivisuus.pdf (5 pages, 192636 bytes).
+Output written on radioaktiivisuus.pdf (5 pages, 194518 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
