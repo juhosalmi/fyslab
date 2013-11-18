@@ -138,30 +138,111 @@ Määritellään ja johdetaan työssä käytettävät termit ja fysikaaliset kaa
 
 Säteilynilmaisin eli detektori on laite, joka tuottaa jännitepulssin havaitessaan säteilyhiukkasen. Pulssitaajuus ($\dot{n}$) on pulssimäärä ($n$) aikayksikköä kohden. Detektori ei havaitse kaikkia siihen osuvia hiukkasia. Havaitsemistodennäköisyyttä kutsutaan detektorin efektiivisyydeksi ($\epsilon$). Radioaktiivisten hajoamisten lukumäärä noudattaa Poisson-jakaumaa, joten pulssimäärän virhearviona voidaan käyttää sen neliöjuurta: $\Delta n = \sqrt{n}$.
 
-Lähteen aktiivisuus $A$ voidaan määrittää mittaamalla lähteen säteilyn pulssitaajuutta ($\dot{n}$). Oletetaan lähteen koko etäisyyteen nähden niin pieneksi, että lähdettä voidaan käsitellä pistemäisenä. Oletetaan lisäksi detektori niin pieneksi, että sitä voidaan kuvata tasona. Gammasäteilyn kohdalla vuorovaikutustodennäköisyys ilman kanssa on niin pieni, ettei säteilyä absorboidu merkittävästi ennen sen osumista detektoriin. Tällöin detektorin havaitsema pulssitaajuus on 
+Lähteen aktiivisuus $A$ tarkoittaa siinä tapahtuvien radioaktiivisten hajoamisten määrää aikayksikköä kohden. Aktiivisuuden yksikkö on 1/s, jonka erityisnimi on Becquerel (Bq). Aktiivisuus voidaan määrittää mittaamalla lähteen säteilyn pulssitaajuutta ($\dot{n}$). Oletetaan lähteen koko etäisyyteen nähden niin pieneksi, että lähdettä voidaan käsitellä pistemäisenä. Oletetaan lisäksi detektori niin pieneksi, että sitä voidaan kuvata tasona. Gammasäteilyn kohdalla vuorovaikutustodennäköisyys ilman kanssa on niin pieni, ettei säteilyä absorboidu merkittävästi ennen sen osumista detektoriin. Tällöin detektorin havaitsema pulssitaajuus on 
 
-\[ \dot{n} = \epsilon \cdot A \cdot n_A \cdot \frac{\Omega}{4 \pi} ,\]
+\begin{equation}
+  \dot{n} = \epsilon \cdot A \cdot n_A \cdot \frac{\Omega}{4 \pi} ,
+\end{equation}
 
 jossa $n_A$ on yhdessä hajoamisessa emittoituvien gammakvanttien määrä, jossa lähde näkee detektorin. Detektorin pinta-ala on $a_d$, joten kaava voidaan kirjoittaa muotoon
 
-\[ \dot{n} = \epsilon \cdot A \cdot n_A \cdot \frac{a_d}{4 \pi r^2} ,\]
+\begin{equation}
+  \dot{n} = \epsilon \cdot A \cdot n_A \cdot \frac{a_d}{4 \pi r^2} ,
+\end{equation}
 
 jossa $r$ on detektorin etäisyys lähteestä. Pulssitaajuus on siis kääntäen verrannollinen etäisyyden neliöön. 
 
 Säteilyn absorptiotodennäköisyys väliaineessa kasvaa väliaineen järjestysluvun funktiona ja pienenee fotonin energian funktiona. Gammasäteilyn intensiteett $\varphi$ vaimenee säteilyn väliaineessa kulkeman matkan $x$ funktiona eksponentiaalisesti:
 
-\[ \varphi(x) = \varphi_0 \cdot e^{-\mu \cdot x} ,\]
+\begin{equation}
+  \varphi(x) = \varphi_0 \cdot e^{-\mu \cdot x} ,
+\end{equation}
 
 jossa $\varphi_0$ on intensiteetti ennen väliaineeseen osumista. Matkavaimennuskerroin $\mu$ on väliaineesta ja fotonin energiasta riippuva absorptiotodennäköisyys pituusyksikköä kohden. Detektorin mittaama pulssitaajuus on suoraan verrannollinen säteilyn intensiteettiin: 
 
-\[ \dot{n} = \epsilon \cdot \varphi \cdot a_d \]
+\begin{equation}
+  \label{ndot}
+  \dot{n} = \epsilon \cdot \varphi \cdot a_d 
+\end{equation}
+
+Osuessaan väliaineeseen, säteily ionisoi sen atomeita ja molekyylejä. Absorboitunut annos $D$ määritellään kohteeseen absorboituneen säteilyenergian ja kohteen massan suhteena: 
+
+\begin{equation}
+  D = \frac{E}{m}
+\end{equation}
+
+Absorboituneen annoksen yksikkö on J/kg, jonka erityisnimitys on Gray (Gy). Annosnopeus on absorboitunut annos aikayksikköä kohti: 
+
+\begin{equation}
+  \dot{D} = \frac{dD}{dt} = \frac {dE}{dt} \frac{1}{m}
+\end{equation}
+
+Energiaa siirtyy väliaineeseen saman verran kuin säteilyn intensiteetti vaimenee, joten annosnopeus voidaan kirjoittaa muotoon: 
+
+\begin{equation}
+  \label{annos3}
+  \dot{D} = \frac{\varphi \cdot a \cdot p_{abs} \cdot \bar{E}}{m} ,
+\end{equation}
+
+jossa $a$ on tarkasteltavan tilavuusalkion pinta-ala, $p_{abs}$ fotonien absorboitumistodennäköisyys ja $\bar{E}$ fotonien keskimääräinen energia. Tarkasteltaessa pientä tilavuusalkiota voidaan absorptiotodennköisyys korjoittaa muotoon
+
+\begin{equation}
+  p_{abs} = \mu_{en} \cdot l ,
+\end{equation}
+
+jossa $\mu_{en}$ on energian absorptiotodennäköisyys pituusyksikköä kohden ja $l$ tilavuusalkion pituus. Massa voidaan puolestaan kirjoittaa puolestaan tiheyden, pinta-alan ja pituuden tulona ($\rho \cdot a \cdot l$) ja $\phi$ voidaan ratkaista kaavasta \ref{ndot}. Saadaan siis 
+
+\begin{equation}
+  \dot{D} = \frac{\dot{n} \cdot a \cdot \mu_{en} \cdot l \cdot \bar{E}}{\epsilon \cdot a_d \cdot \rho \cdot a \cdot l} = \frac{\dot{n} \cdot \bar{E}}{\epsilon \cdot a_d} \frac{ \mu_{en}}{\rho}
+\end{equation}
+
+jossa tekijää $\mu_{en}/\rho$ kutsutaan energia-absorption massakertoimeksi. Vaihtoehtoisesti voidaan pienillä etäisyyksillä mitatessa arvioida, että annosnopeus voidaan määrittää vaimentumattoman ($\dot{n}_0$) ja väliaineessa vaimentuneen ($\dot{n}_1$) pulssitaajuuden avulla. 
+
+\begin{equation}
+  \varphi \cdot a \cdot p_{abs} = \frac{\dot{n}_0-\dot{n}_1}{\epsilon}
+\end{equation}
+
+Sijoittamalla tämä kaavaan \ref{annos3} saadaan annosnopeudeksi
+
+\begin{equation}
+  \dot{D} = \frac{(\dot{n}_0-\dot{n}_1) \cdot \bar{E}}{\epsilon \cdot m} .
+\end{equation}
 
 \subsection{Alfa- ja beetasäteily}
 \label{alfabeeta}
 
 Alfa- ja beetasäteilyn mittauksessa säteilylähteet ja detektori on asennettu muovikoteloon, jossa säteilylähteiden etäisyyttä detektorista voidaan säätää ruuvilla ja säteilylähde voidaan vaihtaa tappia vetämällä tai työntämällä. Detektoriin kytketystä mittalaitteesta voidaan lisäksi valita mitattavaksi haluttu säteilylaji. Alfasäteilyn lähde koostuu Am-241-isotoopista ja beetasäteilyn ($\beta^-$) lähde Sr-90-isotoopista. 
 
+Mitataan alfalähteen säteilyn pulssitaajuus 5 mm etäisyydeltä vaimentamattomana sekä mylarkalvon kanssa. 
+\begin{table}[h]
+\begin{center}
+\caption{Alfasäteilyn aiheuttama pulssitaajuus}
+\begin{tabular}{ | r | l | }
+  \hline 
+  \multicolumn{2}{| c |}{Alfasäteilyn aiheuttama pulssitaajuus 5mm etäisyydeltä} \\ \hline
+  vaimentumaton & $4000 \pm 200 Bq$ \\ \hline
+  mylarkalvon kanssa & $0,25 \pm 0,25 Bq$ \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
 
+Mitataan alfasäteilyn kantama ilmassa siirtämällä alfalähdettä kauemmas detektorista. Saadaan, että $23 \pm 1 mm$ etäisyydellä detektori ei havaitse kuin satunnaisia hajoamisia, joten etäisyys voidaan katsoa alfasäteilyn kantamaksi. 
+
+Mitataan beetalähteen säteilyn pulssitaajuus 5mm etäisyydeltä vaimentamattomana, mylarkalvon ja pleksilevyn kanssa.
+\begin{table}[h]
+\begin{center}
+\caption{Beetasäteilyn aiheuttama pulssitaajuus}
+\begin{tabular}{ | r | l | }
+  \hline 
+  \multicolumn{2}{| c |}{Beetasäteilyn aiheuttama pulssitaajuus 5mm etäisyydeltä} \\ \hline
+  vaimentumaton & $350 \pm 50 Bq$ \\ \hline
+  mylarkalvon kanssa & $350 \pm 50 Bq$ \\ \hline
+  pleksilevyn kanssa & $125 \pm 25 Bq$ \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+   
+Mitataan beetasäteilyn vaimenemista siirtämällä beetalähde niin kauas detektorista kuin mittalaitteella on mahdollista. Saadaan maksimietäisyydellä $83 \pm 0,5 mm$ pulssitaajuudeksi $75 \pm 25 Bq$. 
 
 
 
