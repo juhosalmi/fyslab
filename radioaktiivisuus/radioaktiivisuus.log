@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.18)  18 NOV 2013 08:58
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.18)  18 NOV 2013 10:08
 entering extended mode
 **//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/fyslab/radioaktiivisuus/radio
 aktiivisuus.tex
@@ -326,47 +326,50 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 125.
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 []\T1/cmr/m/n/10.95 Harjoitustyöohje: Työ 55 Ra-dio-ak-tii-vi-suus ja sä-tei-ly
 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 \T1/cmr/m/n/10.95 http://physics.aalto.fi/pub/kurssit/Tfy-3.15xx/materiaali/55.
 pdf
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 []\T1/cmr/m/n/10.95 Wikipedia-artikkeli ra-dio-ak-tii-vi-suu-des-ta,
  []
 
-[1] [2]
+[3]
 (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\fyslab\radioaktiivisuus\radioa
 ktiivisuus.aux) ) 
 Here is how much of TeX's memory you used:
- 1297 strings out of 494053
- 14629 string characters out of 3147733
- 67212 words of memory out of 3000000
- 4604 multiletter control sequences out of 15000+200000
+ 1299 strings out of 494053
+ 14647 string characters out of 3147733
+ 68212 words of memory out of 3000000
+ 4606 multiletter control sequences out of 15000+200000
  13373 words of font info for 34 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  25i,6n,24p,671b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/enc/dvips/cm-super/cm-sup
 er-t1.enc}<C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/PROGRA
-MS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/PROGRAMS/MiKT
-eX/MiKTeX_2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/PROGRAMS/MiKTeX/MiKT
-eX_2.9/fonts/type1/public/cm-super/sfbx1728.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/
-fonts/type1/public/cm-super/sfrm1095.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/t
-ype1/public/cm-super/sfrm1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/pu
-blic/cm-super/sfrm1728.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm
--super/sfti1200.pfb>
-Output written on radioaktiivisuus.pdf (3 pages, 144159 bytes).
+pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
+/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/PROGRA
+MS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/PROGRAMS/MiKTe
+X/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/PROGRAMS/MiKTeX/MiKT
+eX_2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/
+fonts/type1/public/cm-super/sfbx1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/t
+ype1/public/cm-super/sfbx1440.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/pu
+blic/cm-super/sfbx1728.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm
+-super/sfrm1095.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/
+sfrm1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfrm172
+8.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on radioaktiivisuus.pdf (4 pages, 182429 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
