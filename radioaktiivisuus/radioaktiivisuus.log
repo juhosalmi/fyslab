@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.1)  2 DEC 2013 00:15
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.1)  2 DEC 2013 01:31
 entering extended mode
 **//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/fyslab/radioaktiivisuus/radio
 aktiivisuus.tex
@@ -362,35 +362,33 @@ File: lyijyeste.png Graphic file (type png)
  <use lyijyeste.png>
 [6] [7 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/fyslab/radioaktiivisuus
 /lyijyeste.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
 []\T1/cmr/m/n/10.95 Harjoitustyöohje: Työ 55 Ra-dio-ak-tii-vi-suus ja sä-tei-ly
 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
 \T1/cmr/m/n/10.95 http://physics.aalto.fi/pub/kurssit/Tfy-3.15xx/materiaali/55.
 pdf
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--362
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 []\T1/cmr/m/n/10.95 Wikipedia-artikkeli ra-dio-ak-tii-vi-suu-des-ta,
  []
 
-[8
-
-]
+[8]
 (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\fyslab\radioaktiivisuus\radioa
 ktiivisuus.aux) ) 
 Here is how much of TeX's memory you used:
- 1808 strings out of 494053
- 21456 string characters out of 3147734
- 79733 words of memory out of 3000000
- 5102 multiletter control sequences out of 15000+200000
+ 1809 strings out of 494053
+ 21469 string characters out of 3147734
+ 78742 words of memory out of 3000000
+ 5103 multiletter control sequences out of 15000+200000
  13373 words of font info for 34 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 25i,9n,24p,781b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,9n,24p,857b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/enc/dvips/cm-super/cm-sup
 er-t1.enc}<C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmmi10.
 pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:
@@ -406,7 +404,7 @@ fbx1728.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfrm1095
 .pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C
 :/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfrm1728.pfb><C:/PROGR
 AMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on radioaktiivisuus.pdf (9 pages, 250798 bytes).
+Output written on radioaktiivisuus.pdf (9 pages, 252088 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

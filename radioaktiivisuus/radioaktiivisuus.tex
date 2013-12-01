@@ -203,6 +203,7 @@ jossa tekijää $\mu_{en}/\rho$ kutsutaan energia-absorption massakertoimeksi. V
 Sijoittamalla tämä kaavaan \ref{annos3} saadaan annosnopeudeksi
 
 \begin{equation}
+  \label{annosnopeus}
   \dot{D} = \frac{(\dot{n}_0-\dot{n}_1) \cdot \bar{E}}{\epsilon \cdot m} .
 \end{equation}
 
@@ -213,7 +214,7 @@ Eri säteilyn lajien samansuuruisilla absorboituneilla annoksilla on erilaiset b
 \subsection{Alfa- ja beetasäteilyn mittaus}
 \label{laitteisto:alfabeeta}
 
-Alfa- ja beetasäteilyn mittauksessa säteilylähteet ja detektori on asennettu muovikoteloon, jossa säteilylähteiden etäisyyttä detektorista voidaan säätää ruuvilla ja säteilylähde voidaan vaihtaa tappia vetämällä tai työntämällä. Detektoriin kytketystä mittalaitteesta voidaan lisäksi valita mitattavaksi haluttu säteilylaji. Alfasäteilyn lähde koostuu Am-241-isotoopista ja beetasäteilyn ($\beta^-$) lähde Sr-90-isotoopista. Lähteet ovat tasomaisia, halkaisijaltaan 10 mm. Alfahiukkasten energia on noin 5,5 MeV. Beetahiukkasten maksimienergia 546 keV ja keskimääräinen energia 196 keV. \cite{ohje}
+Alfa- ja beetasäteilyn mittauksessa säteilylähteet ja detektori on asennettu muovikoteloon, jossa säteilylähteiden etäisyyttä detektorista voidaan säätää ruuvilla ja säteilylähde voidaan vaihtaa tappia vetämällä tai työntämällä. Detektoriin kytketystä mittalaitteesta voidaan lisäksi valita mitattavaksi haluttu säteilylaji. Alfasäteilyn lähde koostuu Am-241-isotoopista ja beetasäteilyn ($\beta^-$) lähde Sr-90-isotoopista. Lähteet ovat tasomaisia, halkaisijaltaan 10 mm. Alfahiukkasten energia on noin 5,5 MeV. Beetahiukkasten maksimienergia 546 keV ja keskimääräinen energia 196 keV. Työssä tutkitaan säteilyn vaimenemista mylarkalvossa, jonka massa on 1,32 mg sekä pleksilevyssä, jonka massa on 254 mg. \cite{ohje}
 
 
 \subsection{Gammasäteilyn mittaus}
@@ -256,6 +257,11 @@ Mitataan beetalähteen säteilyn pulssitaajuus 5mm etäisyydeltä vaimentamattom
 \end{table}
    
 Mitataan beetasäteilyn vaimenemista siirtämällä beetalähde niin kauas detektorista kuin mittalaitteella on mahdollista. Saadaan maksimietäisyydellä $83 \pm 0,5 mm$ pulssitaajuudeksi $75 \pm 25 Bq$. 
+
+Kaavasta \ref{annosnopeus} saadaan laskettua alfasäteilyn mylarkalvoon aiheuttama annosnopeus: $0,02 J/kg \cdot s$
+
+Beetasäteilyn pleksilevyyn aiheuttaman ekvivalenttiannoksen annosnopeus: $0,12 \mu J / kg \cdot s$
+
 
 \subsection{Gammasäteily}
 \label{tulokset:gamma}
@@ -329,11 +335,13 @@ Lyijyn määrä (mm) & Havaitut pulssit (kpl) \\ \hline
 \caption{Havaittujen pulssien määrä eri lyijyesteen paksuuksilla. Pulssien määrästä on vähennetty taustasäteilyn vaikutus. \label{lyijyeste}}
 \end{figure}
 
+Kuvaajan perusteella voidaan päätellä, että intensiteetin puoliintumispaksuus on n. 25 mm. 10 \%:iin intensiteetti laskee jossakin 60--70 mm tienoilla. 
+
 Mitataan dosimetrillä säteilyannosta työskentelypaikalta lyijytiilien kanssa, ilman lyijytiiliä sekä 5 cm päässä gammalähteestä. 
 
 \begin{table}[H]
 \begin{center}
-\caption{Gammalähteen aiheuttama pulssitaajuus 5 cm etäisyydeltä}
+\caption{Dosimetrin lukemat 5 cm etäisyydeltä}
 \begin{tabular}{ | r | l | }
   \hline
   lyijytiilien kanssa & $0,18 \pm 0,01 \mu Sv /h$ \\ \hline
@@ -343,11 +351,11 @@ Mitataan dosimetrillä säteilyannosta työskentelypaikalta lyijytiilien kanssa,
 \end{center}
 \end{table}
 
-\clearpage
+Dosimetrimittauksen perusteella säteilylähde ei juurikaan kasvata annosnopeutta taustasäteilyyn verrattuna. 
 
 \section{Yhteenveto ja pohdinnat}
 
-Havaitaan, että alfasäteily pysähtyy ohueenkin väliaineeseen, siinä missä beetasäteily läpäisee vähän paksummankin väliaineen. Gammasäteily puolestaa läpäisee jopa paksumman lyijykerroksen. Samalla tavalla käyttäytyvät myös säteilytyyppien kantamat. Nämä on pidettävä mielessä säteilyltä suojautuessa. 
+Havaitaan, että alfasäteily pysähtyy ohueenkin väliaineeseen, siinä missä beetasäteily läpäisee vähän paksummankin väliaineen. Gammasäteily puolestaa läpäisee jopa paksumman lyijykerroksen. Samalla tavalla käyttäytyvät myös säteilytyyppien kantamat. Alfasäteilyltä on helppo suojautua, mutta siitä saa nopeasti suuren ekvivalenssiannoksen. 
 
 Mittauksia tehdessä, olivat tutkimuksen tekijät pääsääntöisesti suojattu säteilyltä, eikä lähelläkään säteilylähdettä ollut vaarallisia annosnopeuksia. Ainoa elin, joka joutui lähelle säteilylähdettä oli käsi, ja sen efektiiviset painokertoimet ovat pieniä. 
 
