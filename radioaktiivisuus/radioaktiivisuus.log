@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.18)  18 NOV 2013 16:10
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.1)  2 DEC 2013 00:15
 entering extended mode
 **//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/fyslab/radioaktiivisuus/radio
 aktiivisuus.tex
@@ -301,102 +301,114 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count89
+\float@exts=\toks17
+\float@box=\box26
+\@float@everytoks=\toks18
+\@floatcapt=\box27
+)
 (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\fyslab\radioaktiivisuus\radioa
 ktiivisuus.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
  (C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count89
+\scratchcounter=\count90
 \scratchdimen=\dimen106
-\scratchbox=\box26
-\nofMPsegments=\count90
-\nofMParguments=\count91
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count92
+\scratchbox=\box28
+\nofMPsegments=\count91
+\nofMParguments=\count92
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count93
 \MPscratchDim=\dimen107
-\MPnumerator=\count93
-\everyMPtoPDFconversion=\toks18
+\MPnumerator=\count94
+\everyMPtoPDFconversion=\toks20
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 75.
+(Font)              <12> on input line 76.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 75.
+(Font)              <8> on input line 76.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 75.
+(Font)              <6> on input line 76.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 125.
+(Font)              <10.95> on input line 126.
  [1] [2]
-Overfull \hbox (0.23499pt too wide) in paragraph at lines 195--196
+Overfull \hbox (0.23499pt too wide) in paragraph at lines 197--198
 []\T1/cmr/m/n/10.95 jossa te-ki-jää $\OML/cmm/m/it/10.95 []=$ \T1/cmr/m/n/10.
 95 kut-su-taan energia-absorption mas-sa-ker-toi-mek-si. Vaih-
  []
 
-[3] <gamma1.png, id=27, 348.55219pt x 328.97906pt>
+[3] [4] <gamma1.png, id=30, 443.40656pt x 274.77657pt>
 File: gamma1.png Graphic file (type png)
- <use gamma1.png> [4]
+ <use gamma1.png>
 [5 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/fyslab/radioaktiivisuus/gam
-ma1.png>] [6
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+ma1.png>] <lyijyeste.png, id=38, 432.11438pt x 385.44pt>
+File: lyijyeste.png Graphic file (type png)
+ <use lyijyeste.png>
+[6] [7 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/fyslab/radioaktiivisuus
+/lyijyeste.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
 []\T1/cmr/m/n/10.95 Harjoitustyöohje: Työ 55 Ra-dio-ak-tii-vi-suus ja sä-tei-ly
 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
 \T1/cmr/m/n/10.95 http://physics.aalto.fi/pub/kurssit/Tfy-3.15xx/materiaali/55.
 pdf
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
 []\T1/cmr/m/n/10.95 Wikipedia-artikkeli ra-dio-ak-tii-vi-suu-des-ta,
  []
 
-[7
+[8
 
 ]
 (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\fyslab\radioaktiivisuus\radioa
 ktiivisuus.aux) ) 
 Here is how much of TeX's memory you used:
- 1739 strings out of 494053
- 20547 string characters out of 3147733
- 78343 words of memory out of 3000000
- 5038 multiletter control sequences out of 15000+200000
+ 1808 strings out of 494053
+ 21456 string characters out of 3147734
+ 79733 words of memory out of 3000000
+ 5102 multiletter control sequences out of 15000+200000
  13373 words of font info for 34 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 25i,9n,24p,781b,247s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,9n,24p,781b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/enc/dvips/cm-super/cm-sup
 er-t1.enc}<C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
-/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/PROGRA
-MS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/PROGRAMS/MiKTe
-X/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/PROGRAMS/MiKTeX/MiKT
-eX_2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/
-fonts/type1/public/cm-super/sfbx1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/t
-ype1/public/cm-super/sfbx1440.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/pu
-blic/cm-super/sfbx1728.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm
--super/sfrm1095.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/
-sfrm1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfrm172
-8.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on radioaktiivisuus.pdf (8 pages, 219025 bytes).
+pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:
+/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/PROGRA
+MS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/PROGRAMS/MiKT
+eX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/PROGRAMS/MiKTeX/MiKTe
+X_2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/pub
+lic/cm-super/sfbx1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-
+super/sfbx1440.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/s
+fbx1728.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfrm1095
+.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C
+:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfrm1728.pfb><C:/PROGR
+AMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on radioaktiivisuus.pdf (9 pages, 250798 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
