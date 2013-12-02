@@ -134,6 +134,7 @@ Työssä käytetään kuvassa \ref{laitteisto} esitettyä laitteistoa. Höyrygen
 Lämpövirtaus on kääntäen verrannollinen lämpöä eristävän kerroksen paksuuteen
 
 \begin{equation}
+  \label{lampovirtaus}
   \frac{\Delta Q}{\Delta t} = k A \frac{T_1 - T_2}{l} ,
 \end{equation}
 
@@ -150,6 +151,7 @@ Useampaa päällekkäisen kerroksen tapauksessa lasketaan niiden yhteenlasketut 
 \end{equation}
 
 \begin{equation}
+  \label{kerrosjohtavuus}
   \frac{l_{tot}}{k_{tot}} = \sum_{i=1}^N \frac{l_i}{k_i}
 \end{equation}
 
@@ -159,127 +161,76 @@ Useampaa päällekkäisen kerroksen tapauksessa lasketaan niiden yhteenlasketut 
 
 \section{Tulokset}
 
-Mitataan alfalähteen säteilyn pulssitaajuus 5 mm etäisyydeltä vaimentamattomana sekä mylarkalvon kanssa. 
+Mitataan työssä käytettävien levyjen paksuus. 
 \begin{table}[H]
 \begin{center}
-\caption{Alfalähteen aiheuttama pulssitaajuus 5mm etäisyydeltä}
-\begin{tabular}{ | r | l | }
+\caption{Mittaukset levyjen paksuuksista.}
+\begin{tabular}{ | r | r | r | }
   \hline 
-  vaimentumaton & $4000 \pm 200 Bq$ \\ \hline
-  mylarkalvon kanssa & $0,25 \pm 0,25 Bq$ \\ \hline
+  Lasilevyn 1 paksuus (mm) & Lasilevyn 2 paksuus & Polykarbonaattilevyn paksuus (mm) \\ \hline
+  5,62 & 5,585 & 5,37 \\ \hline
+  5,615 & 5,585 & 5,37 \\ \hline
+  5,62 & 5,585 & 5,38 \\ \hline
+  5,615 & 5,59 & 5,36 \\ \hline
+  5,61 & 5,595 & 5,37 \\ \hline
+  keskiarvo: 5,616 & keskiarvo: 5,579 & keskiarvo: 5,37 \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
 
-Mitataan alfasäteilyn kantama ilmassa siirtämällä alfalähdettä kauemmas detektorista. Saadaan, että $23 \pm 1 mm$ etäisyydellä detektori ei havaitse kuin satunnaisia hajoamisia, joten etäisyys voidaan katsoa alfasäteilyn kantamaksi. 
-
-Mitataan beetalähteen säteilyn pulssitaajuus 5mm etäisyydeltä vaimentamattomana, mylarkalvon ja pleksilevyn kanssa.
+Tehdään mittaukset levyjen lämmönjohtavuuksien mittaamiseksi. Mitataan jääpalan halkaisija ennen ja jälkeen mittauksen, otetaan aika, jonka jääpala sulaa levyn päällä sekä mitataan sulamisveden massa.
 \begin{table}[H]
 \begin{center}
-\caption{Beetalähteen aiheuttama pulssitaajuus 5mm etäisyydeltä}
-\begin{tabular}{ | r | l | }
-  \hline
-  vaimentumaton & $350 \pm 50 Bq$ \\ \hline
-  mylarkalvon kanssa & $350 \pm 50 Bq$ \\ \hline
-  pleksilevyn kanssa & $125 \pm 25 Bq$ \\ \hline
+\caption{Mittaustulokset lämmönjohtavuuksien mittaamiseksi.}
+\begin{tabular}{ | p{2.5cm} | p{2.5cm} | p{2.5cm} | p{2.5cm} | p{2.5cm} | }
+  \hline 
+  Mitattava levy & Veden keräysaika (s) & Kerätyn veden massa (g) & Jääpalan halkaisija aluksi (mm) & Jääpalan halkaisija lopuksi (mm) \\ \hline
+  Lasi 1 & 183 & 31 & $60 \pm 5$ & $57 \pm 5$ \\ \hline
+  Polykarbonaatti & 654 & 29,4 & $57 \pm 5$ & $53 \pm 5$ \\ \hline
+  Lasi 2 + polykarbonaatti & 1021 & 28,51 & $53 \pm 5$ & $50 \pm 5$ \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
+
+Arvioidaan virheet. Ajan virheeksi arvioidaan 1 s sillä pyöristimme ajan sekunnin tarkkuuteen. Massan virheeksi arvioidaan vaa'an hyvästä tarkkuudesta huolimatta 0,5 g, sillä osa vedestä menee hukkaan mittaus prosessissa. Halkaisijan virheeksi arvioidaan 5 mm, sillä jääpala oli epämääräisen muotoinen ja sitä oli liukkauden takia vaikea mitata. 
+
+Johdetaan kaavasta \ref{lampovirtaus} seuraava kaava, jolla voidaan laskea lasilevyn lämmönjohtavuuskerroin: 
+
+\begin{equation}
+  k = \frac{m \cdot C_s \cdot l}{t \cdot A \cdot (T_2 - T_1)} ,
+\end{equation}
+
+Missä $m$ on kerätyn veden massa, $C_s$ veden sulamislämpö, $t$ keräysaika ja $A$ jääpalan pohjan pinta-ala. 
+
+Määritetään lasilevy 1:n lämmönjohtavuus seuraavan taulukon avulla. 
+\begin{table}[H]
+\begin{center}
+\caption{Lukuarvot lasilevy 1:n lämmönjohtavuuden määrittämiseksi. }
+\begin{tabular}{ | p{3cm} | p{3cm} | p{3cm} | p{3cm} | }
+  \hline 
+  Suure & Arvo & Virhe & Yksikkö \\ \hline
+  Jään halkaisija & 60 & $\pm 5$ & mm \\ \hline
+  Levyn paksuus keskiarvona & 5,616 & $\pm 0,1$ & mm \\ \hline
+  Lämpötilaero & 100 & $\pm 1$ & K \\ \hline
+  Veden sulamislämpö & 333 & & kJ/kg \\ \hline
+  Lasin lämmönjohtavuus & 1,212 & $\pm 0,018$ & W/Km \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+Virhelähteitä vertailemalla huomataan, että veden massan virhe osuus kokonaisvirheestä on n. 99 \%. Jään halkaisijan osuus virheestä on 1 \% ja lasilevyn paksuuden sekä sulamisajan osuudet ovat edellisiin nähden merkityksettömiä. 
    
-Mitataan beetasäteilyn vaimenemista siirtämällä beetalähde niin kauas detektorista kuin mittalaitteella on mahdollista. Saadaan maksimietäisyydellä $83 \pm 0,5 mm$ pulssitaajuudeksi $75 \pm 25 Bq$. 
+Määritetään vastaavasti polykarbonaattilevyn sekä kerrosrakenteen lämmönjohtavuus. Saadaan polykarbonaattilevyn lämmönjohtavuudeksi 0,345 W/Km ja kerrosrakenteen lämmönjohtavuudeksi 0,482 W/Km. 
 
-Kaavasta \ref{annosnopeus} saadaan laskettua alfasäteilyn mylarkalvoon aiheuttama annosnopeus: $0,02 J/kg \cdot s$
-
-Beetasäteilyn pleksilevyyn aiheuttaman ekvivalenttiannoksen annosnopeus: $0,12 \mu J / kg \cdot s$
-
-
-\subsection{Gammasäteily}
-\label{tulokset:gamma}
-
-Mitataan gammalähteen pulssien lukumäärää eri etäisyyksiltä tasavälisesti $1/r^2$ suhteen kymmenen sekunnin ajan. Etäisyyden virheeksi arvioidaan $\pm 0,1 cm$ ja pulssimäärän virheeksi $\sqrt{n}$.
-
-\begin{table}[H]
-\begin{center}
-\caption{Gammalähteestä mitattujen pulssien määrä eri etäisyyksiltä 10 s aikana}
-\begin{tabular}{ | r | l | }
-  \hline
-Etäisyys (cm) & Havaitut pulssit (kpl) \\ \hline
-5.0 & 2704 \\ \hline
-5.3 & 2474 \\ \hline
-5.7 & 2061 \\ \hline
-6.1 & 1830 \\ \hline
-6.7 & 1552 \\ \hline
-7.4 & 1320 \\ \hline
-8.5 & 1005 \\ \hline
-10.3 & 743 \\ \hline
-14.1 & 523 \\ \hline
-40.0 & 319 \\ \hline
-\end{tabular}
-\end{center}
-\end{table}
-
-
-Kuvaajasta saadaan kulmakertoimeksi $k = \frac{\Delta{n}}{\Delta \frac{1}{r^2}} = 62 000 cm^2$. Sen avulla voidaan ratkaista kaavasta \ref{pulssitaajuus} aktiivisuus, kun $\dot{n} = \frac{\Delta n}{\Delta t}$ 
-
-\begin{equation}
-  A = \frac{\Delta n}{\Delta \frac{1}{r^2}} \frac{4 \pi }{\epsilon \cdot n_A \cdot a_d \Delta t} = 0,021 MBq ,
-\end{equation}
-
-Tarkistetaan saatu vastaus puoliintumisajan avulla. Lähteen aktiivisuus vuonna 1987 oli 0,62 MBq, joten sen aktiivisuus on ehtinyt puoliintua 4,93 kertaa. 
-
-\begin{equation}
-  A = 0,62 {MBq} \cdot \frac{1}{2^{4,93}} = 0,020 {MBq} ,
-\end{equation}
-
-Mitataan gammalähteen pulssien lukumäärä 20 cm etäisyydeltä 100 s ajan eri määrällä lyijylevyistä valmistettuja absorptiolevyjä. 
-
-\begin{table}[H]
-\begin{center}
-\caption{Gammalähteestä mitattujen pulssien määrä 20 cm etäisyydeltä 100 s aikana eri lyijykerroksen paksuuksilla}
-\begin{tabular}{ | r | l | }
-  \hline
-Lyijyn määrä (mm) & Havaitut pulssit (kpl) \\ \hline
-0 & 4000 \\ \hline
-2 & 3797 \\ \hline
-4 & 3801 \\ \hline
-6 & 3554 \\ \hline
-8 & 3535 \\ \hline
-12 & 3330 \\ \hline
-16 & 3315 \\ \hline
-20 & 3003 \\ \hline
-28 & 2809 \\ \hline
-36 & 2655 \\ \hline
-50 & 2576 \\ \hline
-80 & 2193 \\ \hline
-
-\end{tabular}
-\end{center}
-\end{table}
-
-Kuvaajan perusteella voidaan päätellä, että intensiteetin puoliintumispaksuus on n. 25 mm. 10 \%:iin intensiteetti laskee jossakin 60--70 mm tienoilla. 
-
-Mitataan dosimetrillä säteilyannosta työskentelypaikalta lyijytiilien kanssa, ilman lyijytiiliä sekä 5 cm päässä gammalähteestä. 
-
-\begin{table}[H]
-\begin{center}
-\caption{Dosimetrin lukemat 5 cm etäisyydeltä}
-\begin{tabular}{ | r | l | }
-  \hline
-  lyijytiilien kanssa & $0,18 \pm 0,01 \mu Sv /h$ \\ \hline
-  ilman lyijytiiliä & $0,18 \pm 0,01 \mu Sv /h$ \\ \hline
-  5 cm päässä lähteestä & $0,50 \pm 0,05 \mu Sv /h$ \\ \hline
-\end{tabular}
-\end{center}
-\end{table}
-
-Dosimetrimittauksen perusteella säteilylähde ei juurikaan kasvata annosnopeutta taustasäteilyyn verrattuna. 
+Kaavasta \ref{kerrosjohtavuus} johdettuna tulokseksi olisi pitänyt tulla 0,520 W/Km. Tulokset ovat samaa suuruusluokkaa, ja eroa selittää levyjen väliin jäänyt ohut ilmakerros. 
 
 \section{Yhteenveto ja pohdinnat}
 
-Havaitaan, että alfasäteily pysähtyy ohueenkin väliaineeseen, siinä missä beetasäteily läpäisee vähän paksummankin väliaineen. Gammasäteily puolestaa läpäisee jopa paksumman lyijykerroksen. Samalla tavalla käyttäytyvät myös säteilytyyppien kantamat. Alfasäteilyltä on helppo suojautua, mutta siitä saa nopeasti suuren ekvivalenssiannoksen. 
+Mittausmenetelmä ei sovellu tarkkaan lämmönjohtavuuden mittaukseen, mutta antaa suuntaa siitä, kuinka hyvin eri materiaalit lämpöä eristävät. 
 
-Mittauksia tehdessä, olivat tutkimuksen tekijät pääsääntöisesti suojattu säteilyltä, eikä lähelläkään säteilylähdettä ollut vaarallisia annosnopeuksia. Ainoa elin, joka joutui lähelle säteilylähdettä oli käsi, ja sen efektiiviset painokertoimet ovat pieniä. 
+Virheitä mittauksissa vältettäisiin parhaiten eristämällä mittaus paremmin. Pitää estää, että vettä haihtuu ja kuluu siirroissa astiasta toiseen. Veden voisi johtaa esim. paremmin suljettuun pulloon, jota punnitaan suoraan vaa'alla. 
 
+Samoin jääpala pitäisi eristää paremmin, sillä siihen tulee lämpöä myös muualta ympäristöstä. Tämä aiheuttaa sen, että saadut lämmönjohtavuudet ovat suurempia kuin levyjen todelliset lämmönjohtavuudet. 
 
 %Kirjallisuuviitteet
 \begin{thebibliography}{99}
